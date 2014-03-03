@@ -1,0 +1,7 @@
+# Vagrant 
+.vagrant
+
+# OS Generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
