@@ -35,3 +35,6 @@ sudo apt-get install -y php5 php5-curl php5-cli
 sudo apt-get install curl
 sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
+
+echo "Creating Projects folder"
+mkdir -p /vagrant/projects
