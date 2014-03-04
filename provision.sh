@@ -38,7 +38,7 @@ sudo ln -s /usr/local/share/phantomjs-1.9.7-linux-i686/bin/phantomjs /usr/local/
 sudo ln -s /usr/local/share/phantomjs-1.9.7-linux-i686/bin/phantomjs /usr/bin/phantomjs
 
 echo "Installing Backend Tools (PHP, Composer, Laravel etc)"
-# PHP (Necessary for composer install)
+# PHP
 sudo add-apt-repository -y ppa:ondrej/php5
 sudo apt-get update
 sudo apt-get install -y php5 php5-curl php5-cli php5-mcrypt
@@ -49,6 +49,8 @@ sudo mv composer.phar /usr/local/bin/composer
 sudo wget http://laravel.com/laravel.phar
 sudo chmod 755 laravel.phar
 sudo mv laravel.phar /usr/local/bin/laravel
+# SQLite
+sudo apt-get install -y sqlite3 libsqlite3-dev php5-sqlite
 
 echo "Creating Projects folder"
 mkdir -p /vagrant/projects

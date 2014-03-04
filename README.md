@@ -79,6 +79,7 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 - [PHP](http://www.php.net)
 	- [Composer](https://getcomposer.org)
 	- [Laravel CLI](http://laravel.com/docs/quick#installation)
+- [SQLite](http://www.sqlite.org)
 - [Node.js](http://nodejs.org/)
 	- [Grunt](http://gruntjs.com)
 	- [Gulp](http://gulpjs.com)
