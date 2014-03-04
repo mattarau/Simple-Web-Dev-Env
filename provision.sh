@@ -40,5 +40,7 @@ sudo mv laravel.phar /usr/local/bin/laravel
 
 echo "Creating Projects folder"
 mkdir -p /vagrant/projects
+ln -s /vagrant/projects projects
+sudo mv projects /home/vagrant
 
 echo "Provisioning done."
