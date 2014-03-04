@@ -1,6 +1,6 @@
 # Simple Web Dev Env
 
-A really simple web development environment using [Vagrant](https://github.com/mitchellh/vagrant) with [this tools](#tools).
+A really simple web development environment with [this tools](#tools) using [Vagrant](https://github.com/mitchellh/vagrant).
 
 This is still a work in progress and have important things [to do](#todo).
 
@@ -44,7 +44,7 @@ It is also a cloud based backup of my environment, just in case I have any probl
 
 Sometimes I need to use computers that are not mine and this automates the process to have a working development environment with all the tools I need and that I am used to.
 
-This also helps me to share  avoid forgetting to install something and speeds up my setup.
+This also allows me to share it with people that may work with me in some of my projects.
 
 ### How it works
 
