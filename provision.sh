@@ -29,6 +29,8 @@ npm install -y -g yo grunt-cli gulp bower generator-angular generator-laravel
 
 echo "Installing Backend Tools (PHP, Composer, Laravel etc)"
 # PHP (Necessary for composer install)
+sudo add-apt-repository -y ppa:ondrej/php5
+sudo apt-get update
 sudo apt-get install -y php5 php5-curl php5-cli php5-mcrypt
 # Composer
 sudo curl -sS https://getcomposer.org/installer | php
