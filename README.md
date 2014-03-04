@@ -50,7 +50,7 @@ This also helps me to share  avoid forgetting to install something and speeds up
 
 The idea is to have an environment that replaces a development computer with all the tools I need to work with my web projects.
 
-As the projects that I work have their own Vagrant VMs and each one of them runs their own servers, I just need the tools to develop and I run their Vagrant VMs inside this one (just like inception).
+As the projects that I work have their own Vagrant VMs and each one of them runs their own servers, I just need the tools to develop and I run their Vagrant VMs separately.
 
 With that said, this is **NOT a server VM** and it doesn't supose to run servers like Nginx, Apache, PostgreSQL, MySQL etc. 
 
