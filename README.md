@@ -78,6 +78,7 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 	- [Compass](http://compass-style.org/)
 - [PHP](http://www.php.net)
 	- [Composer](https://getcomposer.org)
+	- [Laravel CLI](http://laravel.com/docs/quick#installation)
 - [Node.js](http://nodejs.org/)
 	- [Grunt](http://gruntjs.com)
 	- [Gulp](http://gulpjs.com)
@@ -88,10 +89,8 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 
 ## ToDo:
 
-- Install mcrypt php extension
 - Add [semver](https://github.com/flazz/semver) to the provisioning
 - Install [Zurb's Foundation CLI]()
-- Install [Laravel CLI]()
 - Install [Vim](http://www.vim.org) (Just in case I can't use Sublime Text)
 - Test on Windows.
 - Test communication with other Vagrant VMs.
