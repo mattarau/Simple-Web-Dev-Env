@@ -88,6 +88,12 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 		- [generator-angular](https://github.com/yeoman/generator-angular)
 		- [generator-laravel](https://github.com/Freyskeyd/generator-laravel)
 
+## Usage
+
+When serving something inside the VM it necessary to use the `0.0.0.0` IP. Any other ip will not have the ports forwarded. Examples:
+
+- Laravel Artisan: `php artisan serve --host="0.0.0.0"`
+
 ## ToDo:
 
 - Add [semver](https://github.com/flazz/semver) to the provisioning
