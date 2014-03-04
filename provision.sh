@@ -23,9 +23,9 @@ echo "installing Ruby and Compass"
 sudo apt-get install -y ruby1.9.1
 gem install compass
 
-echo "Installing Yeoman (with AngularJS and Laravel generators), Grunt, Gulp and Bower"
+echo "Installing Grunt, Gulp, Bower, Karma and Yeoman (with AngularJS and Laravel generators)"
 # Yeoman, Grunt, Gulp and Bower
-npm install -y -g yo grunt-cli gulp bower generator-angular generator-laravel
+npm install -y -g grunt-cli gulp bower karma yo generator-angular generator-laravel
 
 echo "Installing Backend Tools (PHP, Composer, Laravel etc)"
 # PHP (Necessary for composer install)

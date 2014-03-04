@@ -83,6 +83,7 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 	- [Grunt](http://gruntjs.com)
 	- [Gulp](http://gulpjs.com)
 	- [Bower](http://bower.io)
+	- [Karma](http://karma-runner.github.io)
 	- [Yeoman](http://yeoman.io) 
 		- [generator-angular](https://github.com/yeoman/generator-angular)
 		- [generator-laravel](https://github.com/Freyskeyd/generator-laravel)
