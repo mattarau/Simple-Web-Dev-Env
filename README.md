@@ -1,4 +1,4 @@
-# Simple Web Dev Env (Work in Progress)
+# Simple Web Dev Env
 
 A really simple web development environment using [Vagrant](https://github.com/mitchellh/vagrant) with [this tools](#tools).
 
@@ -96,4 +96,3 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 - Test communication with other Vagrant VMs.
 - Transpose the ssh public key
 - Configure it to run behind proxies
-
