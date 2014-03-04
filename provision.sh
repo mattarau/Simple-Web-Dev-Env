@@ -8,6 +8,8 @@ apt-get install -y curl
 
 echo "Installing Git and Git-flow"
 apt-get install -y git git-flow
+# To avoid problems with the SSH authentication
+git config --global url."https://".insteadOf git://
 
 echo "Installing Node.js and npm"
 #Instructions as per https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager (Vagrant runs in root/sudo mode already)
