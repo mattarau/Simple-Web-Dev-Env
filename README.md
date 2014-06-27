@@ -20,7 +20,7 @@ Considering that you have the [requirements](#requirements) installed, follow th
 	cd Simple-Web-Dev-Env
 	```
 
-3. Starts the VM
+3. Start the VM
 
 	```sh
 	vagrant up
@@ -66,7 +66,7 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 
 ### Configuration
 
-- **OS:** Ubuntu 12.10 Precise 32bits.
+- **OS:** Ubuntu 12.10 Precise 64bits.
 - **Memory:** 512MB
 - **Network:** NFS
 - **IP:** 33.33.33.10
