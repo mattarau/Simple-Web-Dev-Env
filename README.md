@@ -52,7 +52,7 @@ The idea is to have an environment that replaces a development computer with all
 
 As the projects that I work have their own Vagrant VMs and each one of them runs their own servers, I just need the tools to develop and I run their Vagrant VMs separately.
 
-With that said, this is **NOT a server VM** and it doesn't supose to run servers like Nginx, Apache, PostgreSQL, MySQL etc. 
+With that said, this is **NOT a server VM** and it doesn't supose to run servers like Nginx, Apache, PostgreSQL, MySQL etc. But it has SQLite and MondoDB to speed up developments with Laravel and Node.js projects.
 
 ## Requirements:
 
@@ -79,7 +79,6 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 - [PHP](http://www.php.net)
 	- [Composer](https://getcomposer.org)
 	- [Laravel CLI](http://laravel.com/docs/quick#installation)
-- [SQLite](http://www.sqlite.org)
 - [Node.js](http://nodejs.org/)
 	- [Grunt](http://gruntjs.com)
 	- [Gulp](http://gulpjs.com)
@@ -88,6 +87,8 @@ I recommend that you install the [vagrant-vbguest](https://github.com/dotless-de
 	- [Yeoman](http://yeoman.io) 
 		- [generator-angular](https://github.com/yeoman/generator-angular)
 		- [generator-laravel](https://github.com/Freyskeyd/generator-laravel)
+- [SQLite](http://www.sqlite.org)
+- [MongoDB](http://mongodb.org)	
 
 ## Usage
 
