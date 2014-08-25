@@ -17,11 +17,12 @@ Vagrant.configure("2") do |config|
     config.ssh.forward_agent = true
 
   nfs_setting = RUBY_PLATFORM =~ /darwin/ || RUBY_PLATFORM =~ /linux/
-  config.vm.synced_folder "./", "/vagrant", id: "vagrant-root" , :nfs => nfs_setting
+  config.vm.synced_folder "./", "/vagrant", id: "vagrant-root" , :nfs => nfs_setting, :mount_options => ['actimeo=2']
 
   config.vm.provider :virtualbox do |v|
     v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     v.customize ["modifyvm", :id, "--memory", 512]
+    v.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant", "1"]
   end
 
   # Provision the VM
