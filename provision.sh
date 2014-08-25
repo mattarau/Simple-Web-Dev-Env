@@ -33,7 +33,7 @@ gem install compass
 
 echo "Installing Frontend Tools: Grunt, Gulp, Bower, Karma, PhantomJS and Yeoman (with AngularJS and Laravel generators)"
 # Yeoman, Grunt, Gulp and Bower
-npm install -y -g grunt-cli gulp bower karma yo generator-angular generator-laravel
+npm install -y -g grunt-cli gulp bower karma-cli yo generator-angular generator-laravel
 # PhantomJS
 sudo apt-get install -y libfontconfig
 cd /usr/local/share/
