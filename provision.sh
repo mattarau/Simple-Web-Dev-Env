@@ -7,7 +7,7 @@ sudo apt-get install -y libgdbm-dev libncurses5-dev automake libtool bison libff
 sudo apt-get install -y language-pack-UTF-8
 
 echo "Installing Git and Git-flow"
-apt-get install -y git git-flow
+sudo apt-get install -y git git-flow
 # To avoid problems with the SSH authentication
 git config --global url."https://".insteadOf git://
 
