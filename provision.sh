@@ -20,6 +20,15 @@ add-apt-repository ppa:chris-lea/node.js
 apt-get update
 apt-get install -y nodejs
 # nodejs above includes npm --- apt-get install -y npm
+echo "installing Ruby and Compass"
+# Ruby
+curl -L https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+echo "source ~/.rvm/scripts/rvm" >> ~/.bashrc
+rvm install 2.1.2
+rvm use 2.1.2 --default
+# Compass
+sudo gem install compass
 
 echo "installing MongoDB"
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
@@ -27,9 +36,6 @@ echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" | 
 sudo apt-get update
 sudo apt-get install mongodb-10gen
 
-echo "installing Ruby and Compass"
-sudo apt-get install -y ruby1.9.1
-gem install compass
 
 echo "Installing Frontend Tools: Grunt, Gulp, Bower, Karma, PhantomJS and Yeoman (with a few generators)"
 # Yeoman, Grunt, Gulp and Bower
