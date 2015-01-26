@@ -31,9 +31,9 @@ echo "installing Ruby and Compass"
 sudo apt-get install -y ruby1.9.1
 gem install compass
 
-echo "Installing Frontend Tools: Grunt, Gulp, Bower, Karma, PhantomJS and Yeoman (with AngularJS and Laravel generators)"
+echo "Installing Frontend Tools: Grunt, Gulp, Bower, Karma, PhantomJS and Yeoman (with a few generators)"
 # Yeoman, Grunt, Gulp and Bower
-npm install -y -g grunt-cli gulp bower karma-cli yo generator-angular generator-laravel
+sudo npm install -y -g grunt-cli gulp bower karma-cli yo generator-angular generator-gulp-angular generator-meanjs generator-ionic generator-laravel
 # PhantomJS
 sudo apt-get install -y libfontconfig
 cd /usr/local/share/
