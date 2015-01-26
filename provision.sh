@@ -36,6 +36,8 @@ echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" | 
 sudo apt-get update
 sudo apt-get install mongodb-10gen
 
+echo "Auto remove apt-get"
+sudo apt-get autoremove
 
 echo "Installing Frontend Tools: Grunt, Gulp, Bower, Karma, PhantomJS and Yeoman (with a few generators)"
 # Yeoman, Grunt, Gulp and Bower
